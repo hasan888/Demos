@@ -261,10 +261,13 @@ button {
 }
 
 .c-guide-nav__items {
-  display: none;
   margin: 0;
   max-width: 100%;
   list-style: none;
+}
+
+.c-guide-nav__items[aria-hidden="true"] {
+  display: none;
 }
 
 .c-guide-nav__item {
