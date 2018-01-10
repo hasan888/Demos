@@ -1,4 +1,4 @@
 {
-   "isHTML": true,
-   "skip": true
+   "type": "guide",
+   "skip": true //Remove this after duplicating the guide template
 }
